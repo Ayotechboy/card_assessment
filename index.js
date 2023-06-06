@@ -5,6 +5,7 @@ const email = document.getElementById('email')
 const phone = document.getElementById('phone')
 const dob = document.getElementById('dob')
 const image = document.getElementById('image')
+const next =document.getElementById('next')
 
 let contactCard = () => {
     fetch(url).then(response => {
@@ -22,3 +23,4 @@ let contactCard = () => {
     })
 }
 contactCard()
+    next.addEventListener('click', contactCard)

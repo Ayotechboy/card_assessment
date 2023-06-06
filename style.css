@@ -13,6 +13,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
 }
 .card {
   width: 40rem;
@@ -57,4 +59,12 @@ img {
 #names {
   /* background-color: white; */
   border-radius: 5px;
+}
+button{
+  width: 7rem;
+  height: 3rem;
+  background-color: pink;
+  color: black;
+  border-radius: 10px;
+  font-size: 1.5rem;
 }
